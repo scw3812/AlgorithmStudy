@@ -2,6 +2,8 @@ package quiz;
 
 import java.util.Scanner;
 
+//dp는 먼저 써보면서 규칙을 찾아서 점화식으로 만들고 그걸 저장할 배열을 만들고 거기서 더해간다
+
 public class BTN {
 	public static void main(String[] args) {
 		int cnt;

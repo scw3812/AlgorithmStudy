@@ -12,6 +12,10 @@ public class LinkedList {
 		header = new Node();
 	}
 	
+	Node getFirst() {
+		return header.next;
+	}
+	
 	void append(int d) {
 		Node end = new Node();
 		end.data = d;
